@@ -54,6 +54,7 @@ namespace MauiListView
                 label.GestureRecognizers.Add(labelTapped);
             }
         }
+
         private void OnTapped(object obj)
         {
             // Navigating to respective GroupHeader based on the tapped label value loaded in IndexLabelGrid

@@ -6,9 +6,9 @@ namespace MauiListView
     {
         private string contactName;
         private string contactNumber;
-        private ImageSource image;
+        private ImageSource? image;
         private string displayString;
-        private Color color;
+        private Color? color;
         private DateTime date;
 
         public Contacts(string name, string number)
@@ -16,11 +16,6 @@ namespace MauiListView
             contactName = name;
             contactNumber = number;
             displayString = name[0].ToString();
-        }
-
-        public Contacts()
-        {
-
         }
 
         public string ContactName
@@ -61,7 +56,7 @@ namespace MauiListView
             }
         }
 
-        public ImageSource ContactImage
+        public ImageSource? ContactImage
         {
             get { return this.image; }
             set
@@ -83,7 +78,7 @@ namespace MauiListView
                 }
             }
         }
-        public Color ContactColor
+        public Color? ContactColor
         {
             get { return color; }
             set
@@ -97,7 +92,7 @@ namespace MauiListView
 
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         public void RaisedOnPropertyChanged(string _PropertyName)
         {
