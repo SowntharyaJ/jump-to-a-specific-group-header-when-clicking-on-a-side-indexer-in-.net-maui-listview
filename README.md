@@ -1,6 +1,6 @@
-# jump-to-a-specific-group-header-when-clicking-on-a-side-indexer-in-.net-maui-listview
+# How to jump to a specific group header when clicking on a side indexer in .NET MAUI ListView?
 
-How to jump to a specific group header when clicking on a side indexer in .NET MAUI ListView?
+This Syncfusion example illustrates how to navigate to a specific group header in a .NET MAUI ListView when a user clicks an item in the side indexer.
 
 ## Sample
 
